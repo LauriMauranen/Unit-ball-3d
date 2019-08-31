@@ -9,7 +9,7 @@ from mpl_toolkits.mplot3d import Axes3D
 from unitball3d import ball
 import matplotlib.pyplot as plt
 
-vertices, faces = ball(p=2, n=10, filename='ball.stl', y_param=1, x_param=1)
+vertices, faces = ball(p=1.5, n=10, filename='ball.stl', y_param=1, x_param=1)
 
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
