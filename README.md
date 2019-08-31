@@ -22,6 +22,6 @@ ax.plot_trisurf(x, y, triangles=faces, Z=z)
 
 plt.show()
 ```
-![alt-text][pic]
+![alt text][pic]
 
-pic = https://github.com/LauriMauranen/Unit-ball-3d/ball.stl
+[pic] = https://github.com/LauriMauranen/Unit-ball-3d/blob/master/ball.stl
