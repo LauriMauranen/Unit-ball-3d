@@ -24,4 +24,4 @@ plt.show()
 ```
 ![alt text][pic]
 
-[pic] = https://github.com/LauriMauranen/Unit-ball-3d/blob/master/ball.stl
+[pic]: https://github.com/LauriMauranen/Unit-ball-3d/blob/master/ball.stl
