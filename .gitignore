@@ -1,0 +1,5 @@
+*.ipynb
+models/
+Pipfile
+Pipfile.lock
+.ipynb_checkpoints
