@@ -9,7 +9,7 @@ from mpl_toolkits.mplot3d import Axes3D
 from unitball3d import ball
 import matplotlib.pyplot as plt
 
-vertices, faces = ball(p=1.5, n=10, filename='ball.stl', y_param=1, x_param=1)
+vertices, faces = ball(p=2/3, n=10, filename='ball.stl', y_param=1.9, x_param=1.9)
 
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
@@ -22,6 +22,6 @@ ax.plot_trisurf(x, y, triangles=faces, Z=z)
 
 plt.show()
 ```
-![alt text][pic]
+![cannot find picture][pic]
 
 [pic]: https://github.com/LauriMauranen/Unit-ball-3d/blob/master/ball.png
